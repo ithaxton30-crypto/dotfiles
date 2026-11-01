@@ -1,0 +1,11 @@
+[ithaxton30-crypto]
+    name = Isabella
+    email = ithaxton30-crypto@users.noreply.github.com
+[init]
+    defaultBranch = main
+[alias]
+    s = status --short --branch
+    l = log --oneline --graph --decorate -20
+[credential]
+    helper =
+    helper = !gh auth git-credential
